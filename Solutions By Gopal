@@ -15,7 +15,7 @@ public class Solution {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-  //Answer 1
+   //Answer 1
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.fitpeo.com/");
 		driver.manage().window().maximize();
@@ -41,7 +41,7 @@ public class Solution {
 			textBox.sendKeys(Keys.BACK_SPACE);
 		}
 		textBox.sendKeys("560");
-		//Answer 7
+    //Answer 7
 		js.executeScript("window.scrollBy(0,200)");
 		driver.findElement(By.xpath("(//input[@type='checkbox'])[1]")).click();
 		driver.findElement(By.xpath("(//input[@type='checkbox'])[2]")).click();
