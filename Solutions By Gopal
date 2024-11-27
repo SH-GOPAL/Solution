@@ -15,7 +15,7 @@ public class Solution {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-//Answer 1
+  //Answer 1
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.fitpeo.com/");
 		driver.manage().window().maximize();
